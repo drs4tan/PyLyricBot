@@ -5,6 +5,7 @@ Simple python script to enter genius lyrics into chats
 * BeautifulSoup
 * pyautogui
 * requests
+* lxml
 
 ## README:
 * Script runs the defaults below without arguments
