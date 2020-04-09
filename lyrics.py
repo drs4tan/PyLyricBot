@@ -63,7 +63,12 @@ def GetLyrics():
 def main():
     SetArgs()
     # * Pause to let user focus on text input
-    time.sleep(3)
+    timer = 3
+    while timer > 0:
+        print(f'STARTING IN  {timer} ⚠️ ')
+        time.sleep(1)
+        timer -= 1
+    print(' 🏁  GO ')
     # * Iterate through lines
     for line in GetLyrics()[linestart:lineend]:
         # * Check for genius lyric [Tags] / nl and skip
@@ -76,6 +81,6 @@ def main():
             pyautogui.write(line)
             pyautogui.write(['enter'])
             time.sleep(.5)
-    print('Done :)')
+    print('Done 😁 ')
 if __name__ == "__main__":
     main()
