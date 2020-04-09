@@ -6,25 +6,6 @@ import string
 import time
 import sys
 
-
-'''
-# ! Dependencies:
-# ! BeautifulSoup
-# ! pyautogui
-# ! requests
-
-# * README:
-# * Script runs the defaults below without arguments
-# * Usage: lyrics.py URL STARTLINE ENDLINE
-# * Current timings:
-# * 3secs until first line, 1/2sec line delay
-
-# TODO: Allow user to change timings
-# TODO: Allow user to cancel
-
-'''
-
-
 # ! Defaults
 geniusurl = 'https://genius.com/Bee-gees-stayin-alive-lyrics'
 linestart = 13
